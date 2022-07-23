@@ -6,11 +6,20 @@ import { Book } from '../model/book';
   styleUrls: ['./product-item.component.css']
 })
 export class ProductItemComponent implements OnInit {
-   @Input()
-   livro!: Book;
-  constructor() { }
+
+  url : string = "";
+
+  @Input()
+  livro!: Book;
+
+  constructor() {
+
+   }
 
   ngOnInit(): void {
+
+
+
   }
 
 }

@@ -3,7 +3,7 @@ export class Book
 
      id!: string;
      name!: string;
-     price!: string;
+     price!: number;
      quantity!: number; 
      category!: string;
      img!: string;
